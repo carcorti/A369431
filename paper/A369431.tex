@@ -38,7 +38,7 @@ and a Formula-Derived b-File through $n=400$}
 \author{Carlo Corti\\
 Independent researcher\\
 \texttt{carlo.corti@outlook.com}}
-\date{July 21, 2026}
+\date{July 22, 2026}
 
 \begin{document}
 
@@ -519,7 +519,7 @@ together with a machine-generated proof tree and counting sequence
 \cite{albertEtAl2026,permpalA369431Class}.  The record states that its
 \emph{Point Placements} specification has 51 rules and was found by the
 PermPAL system on January 18, 2022.  This source was located only after
-the $n=21$ and $n=22$ campaigns and the v1 manuscript had been completed.
+the $n=21$ and $n=22$ campaigns and the initial manuscript had been completed.
 It was therefore absent from the production design and canonical execution
 path.  The paper does not claim to have discovered or reproved
 \eqref{eq:permpal-gf}.
@@ -603,10 +603,7 @@ audit but do not replace conventional mathematical peer review.
 The exact production kernel, compiler version, and effective operator build
 flags were not retained, so the reported elapsed times cannot be reproduced as
 benchmarks even though source, binary identity, data, and completion records
-are pinned.  The public GitHub release tag, commit identifier, and final
-Zenodo DOI remain release-time metadata.  The pre-release Zenodo placeholder
-must be replaced before the manuscript is presented as a final archival
-publication.
+are pinned.
 
 The exhaustive campaign ends at $a(22)$; no maximum-insertion campaign for
 $a(23)$ or any higher term was executed.  Rows $23..400$ of the b-file have
@@ -642,11 +639,13 @@ and attributed formula-derived data at $n=23,\ldots,400$.
 \section*{Data availability}
 \begin{sloppypar}
 
-The GitHub-ready package contains the C code, b-file candidate,
+The public package contains the C code, b-file candidate,
 formula-generation scripts, certified-term table, result tables, append-only
-manifests, aggregate records, and validation reports.  It is intended for
-release in the GitHub repository and synchronized Zenodo archive listed in the
-References.  The formula-derived extension is reproduced by
+manifests, aggregate records, validation reports, and the manuscript as both
+\path{paper/A369431.tex} and \path{paper/A369431.pdf}.  It is available from
+the GitHub repository \url{https://github.com/carcorti/A369431} and the Zenodo
+archive \url{https://doi.org/10.5281/zenodo.21485629}.  The formula-derived
+extension is reproduced by
 \path{tools/generate_b369431.py} and \path{tools/generate_b369431.gp} and
 audited in
 \path{validation/A369431_formula_derived_bfile_validation.md}.  The exhaustive
@@ -655,12 +654,7 @@ evidence includes \path{data/b369431.txt}, the two manifests
 \path{validation/a369431_n22_manifest.tsv}, and the two aggregate records
 \path{results/a369431_n21.aggregate.tsv} and
 \path{results/a369431_n22.aggregate.tsv}.  No per-unit directory or external
-dataset is needed to audit the reported finite computation.  The GitHub URL
-identifies the intended public release repository.  A versioned GitHub tag and
-commit identifier do not yet exist.  The pre-release Zenodo locator is
-\url{https://doi.org/10.5281/zenodo.xxxxxxxx}.
-The Zenodo DOI is a placeholder to be replaced after the first GitHub review
-and GitHub--Zenodo synchronization.
+dataset is needed to audit the reported finite computation.
 \end{sloppypar}
 
 \section*{AI use disclosure}
@@ -700,10 +694,10 @@ used as numerical evidence.
 
 \noindent\textbf{Manuscript.}
 Codex assisted with drafting, internal adversarial review, comparison of the
-11 round-01 reports, targeted literature research, preparation of v2, the
-author-directed formula-extension revision leading to v3, the
-formula-generation and validation workflow, comparison of the 11 v3 review
-reports, and preparation of v4.
+11 first-round reports, targeted literature research, successive manuscript
+revisions, the author-directed formula-extension revision, the
+formula-generation and validation workflow, and comparison of the 11
+subsequent review reports.
 The reviewers received overlapping manuscript-centered packets and did not
 constitute independent human peer review.  Every headline value and coverage statement was checked against
 the b-file candidate, certified-term and result TSVs, canonical manifests,
@@ -733,7 +727,6 @@ H. Ulfarsson,
 \emph{Combinatorial Exploration: An Algorithmic Framework for Enumeration},
 Memoirs of the American Mathematical Society \textbf{317} (2026), no.~1611.
 ISBN 978-1-4704-8000-4.
-\url{https://bookstore.ams.org/MEMO/317/1611}.
 
 \bibitem{bona2022}
 M. B\'ona,
@@ -746,12 +739,9 @@ ISBN 978-0-367-22258-1.
 C. Corti,
 \emph{OEIS A369431: Independent Maximum-Insertion Enumeration through
 $n=22$ and Formula-Derived Data through $n=400$},
-GitHub release package in preparation, 2026.
+GitHub and Zenodo release package, 2026.
 \url{https://github.com/carcorti/A369431}.
-Pre-release Zenodo locator:
-\url{https://doi.org/10.5281/zenodo.xxxxxxxx}.
-The Zenodo DOI is a placeholder to be replaced after the first GitHub review
-and GitHub--Zenodo synchronization.
+\url{https://doi.org/10.5281/zenodo.21485629}.
 
 \bibitem{cppcheckManual}
 Cppcheck project,

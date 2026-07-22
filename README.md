@@ -1,6 +1,9 @@
 # OEIS A369431: independent exhaustive verification and formula-derived data
 
-This repository contains the code, data, persistent execution records, validation reports, and pre-release paper source supporting a computational study of [OEIS A369431](https://oeis.org/A369431).
+This repository contains the code, data, persistent execution records,
+validation reports, and paper supporting a computational study of
+[OEIS A369431](https://oeis.org/A369431).  The definitive repository package
+version is v1.01.
 
 A369431 counts permutations of the set {1, 2, ..., n} that avoid all four classical patterns:
 
@@ -57,11 +60,13 @@ No priority is claimed for the generating function, recurrence, or formula-deriv
 └── validation/
 ```
 
-The current paper filename under `paper/` is intentionally pre-release:
+The paper is distributed in source and rendered form:
 
-- `paper/A369431_v4.tex`
+- `paper/A369431.tex`
+- `paper/A369431.pdf`
 
-It will be finalized only after the first GitHub and Zenodo publication cycle. No PDF is included at this pre-release stage.
+The filename is deliberately unversioned; release identity is carried by the
+repository and archive metadata.
 
 ## Computational method
 
@@ -184,9 +189,10 @@ The precise command-line behavior remains defined by the scripts themselves.
 
 ## Paper
 
-The accompanying pre-release manuscript is:
+The accompanying manuscript is:
 
-- [`paper/A369431_v4.tex`](paper/A369431_v4.tex)
+- [`paper/A369431.tex`](paper/A369431.tex)
+- [`paper/A369431.pdf`](paper/A369431.pdf)
 
 Title:
 
@@ -203,21 +209,17 @@ The manuscript is the primary scientific description of the sequence definition,
 The repository contains the C source, Makefile, b-file candidate,
 formula-generation scripts, certified-term table, result tables, append-only
 manifests, aggregate records, validation reports, citation metadata, license,
-and pre-release manuscript source described above.
+and manuscript source and PDF described above.
 
 No per-unit directory or external dataset is required to audit the reported finite computation.
 
-The intended public GitHub repository is:
+The public GitHub repository is:
 
 - https://github.com/carcorti/A369431
 
-The GitHub release tag and commit identifier are not yet available.  The
-pre-release Zenodo locator is:
+The archived project DOI is:
 
-- https://doi.org/10.5281/zenodo.xxxxxxxx
-
-The Zenodo DOI is a placeholder to be replaced after the first GitHub review
-and GitHub--Zenodo synchronization.
+- https://doi.org/10.5281/zenodo.21485629
 
 ## License
 
@@ -226,8 +228,3 @@ The software and accompanying repository materials are released under the MIT Li
 ## Citation
 
 Citation metadata are provided in [`CITATION.cff`](CITATION.cff).
-
-The Zenodo DOI is a placeholder to be replaced after the first GitHub review
-and GitHub--Zenodo synchronization.  After DOI assignment, update
-`README.md`, `CITATION.cff`, and the paper source in a separate metadata
-commit.

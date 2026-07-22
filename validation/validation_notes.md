@@ -1,7 +1,7 @@
 # A369431 Validation Notes
 
-This directory contains structured validation evidence for the raw
-GitHub-ready A369431 package.
+This directory contains structured validation evidence for the definitive
+A369431 repository package, release v1.01.
 
 The production run used one canonical C17 source file and one Makefile. The
 algorithm is formula-free: it counts avoiders by insertion of the next maximum.
