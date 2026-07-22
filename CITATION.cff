@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "Please cite this software repository and the accompanying paper. The Zenodo DOI is a placeholder to be replaced after the first GitHub review and GitHub--Zenodo synchronization."
+title: "OEIS A369431: Independent Maximum-Insertion Enumeration through n=22 and Formula-Derived Data through n=400"
+type: software
+authors:
+  - family-names: "Corti"
+    given-names: "Carlo"
+    email: "carlo.corti@outlook.com"
+repository-code: "https://github.com/carcorti/A369431"
+url: "https://doi.org/10.5281/zenodo.xxxxxxxx"
+license: MIT
+version: "pre-release"
+keywords:
+  - "OEIS"
+  - "A369431"
+  - "permutation patterns"
+  - "pattern avoidance"
+  - "exact enumeration"
+  - "maximum insertion"
+  - "rational generating function"
+  - "reproducible computation"
+abstract: >-
+  Code, data, manifests, aggregate records, validation reports, and a
+  pre-release manuscript supporting an independent formula-free exhaustive
+  verification of OEIS A369431 through n=22 and an attributed
+  formula-derived b-file extension through n=400. The exhaustive computation
+  gives a(21) = 8321204878 and a(22) = 26674199972. Terms from n=23 through
+  n=400 are derived from the previously published PermPAL generating function
+  and cross-checked with exact Python and PARI/GP calculations.
+preferred-citation:
+  type: article
+  title: "Independent Exhaustive Verification of OEIS A369431 through n=22 and a Formula-Derived b-File through n=400"
+  authors:
+    - family-names: "Corti"
+      given-names: "Carlo"
+      email: "carlo.corti@outlook.com"
+  year: 2026

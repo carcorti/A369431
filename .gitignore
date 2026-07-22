@@ -1,0 +1,10 @@
+a369431
+a369431_san
+a369431_clang
+*.o
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+

@@ -1,0 +1,25 @@
+# n	a_n	status	source
+# local_OEIS_snapshot_A369431 denotes the pre-campaign OEIS snapshot.
+0	1	oeis_known	local_OEIS_snapshot_A369431
+1	1	oeis_known	local_OEIS_snapshot_A369431
+2	2	oeis_known	local_OEIS_snapshot_A369431
+3	6	oeis_known	local_OEIS_snapshot_A369431
+4	20	oeis_known	local_OEIS_snapshot_A369431
+5	66	oeis_known	local_OEIS_snapshot_A369431
+6	214	oeis_known	local_OEIS_snapshot_A369431
+7	688	oeis_known	local_OEIS_snapshot_A369431
+8	2206	oeis_known	local_OEIS_snapshot_A369431
+9	7070	oeis_known	local_OEIS_snapshot_A369431
+10	22660	oeis_known	local_OEIS_snapshot_A369431
+11	72634	oeis_known	local_OEIS_snapshot_A369431
+12	232830	oeis_known	local_OEIS_snapshot_A369431
+13	746352	oeis_known	local_OEIS_snapshot_A369431
+14	2392486	oeis_known	local_OEIS_snapshot_A369431
+15	7669286	oeis_known	local_OEIS_snapshot_A369431
+16	24584436	oeis_known	local_OEIS_snapshot_A369431
+17	78807122	oeis_known	local_OEIS_snapshot_A369431
+18	252621702	oeis_known	local_OEIS_snapshot_A369431
+19	809796400	oeis_known	local_OEIS_snapshot_A369431
+20	2595858574	oeis_known	local_OEIS_snapshot_A369431
+21	8321204878	canonical_run	results/a369431_n21.aggregate.tsv
+22	26674199972	canonical_run	results/a369431_n22.aggregate.tsv

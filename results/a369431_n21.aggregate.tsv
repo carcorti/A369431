@@ -1,0 +1,2 @@
+sequence	target	coverage	leaves	nodes	source_sha256	binary_sha256	manifest_sha256	method	recurrence_status
+A369431	21	groups=4/4;units=66/66;atoms=20/20	8321204878	12094019604	6b167caa975bc7fddd0d7c090ad84dfd68ec6538c438c68b9ef65050ab0cdf64	03add459595d2c594a7bfc8a6783c3b215d561881fef5acfe8f54d48bb34a143	29a8bafe4a4c95692a9107e875759ee6168dbd92096fbbcef83e6cdf25a2f248	maximum-insertion	unproved-post-hoc-checksum-only
